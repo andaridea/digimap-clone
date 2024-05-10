@@ -3,6 +3,8 @@ import { Products } from "@/interfaces"
 import { useEffect, useState } from "react"
 import { MdFavoriteBorder } from "react-icons/md";
 import Link from "next/link";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 export default function Product() {
     const [dataProduct, setDataProduct] = useState<Products[]>([])
@@ -30,6 +32,7 @@ export default function Product() {
     // console.log(dataProduct, "<<<<")
     return (
         <>
+            <Navbar />
             {/* <!-- List Product --> */}
             <h2 className="mt-10 mb-6 ml-16 text-2xl font-bold leading-9 tracking-tight text-gray-900">All Products</h2>
             <div className="container mx-auto mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-20">
@@ -56,6 +59,7 @@ export default function Product() {
                 }
             </div>
             {/* <!-- End of List Product --> */}
+            <Footer />
         </>
     )
 }
