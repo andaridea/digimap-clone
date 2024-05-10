@@ -1,4 +1,6 @@
 import { Products } from "@/interfaces";
+import Navbar from "@/app/components/navbar";
+import Footer from "@/app/components/footer";
 
 async function getDataBySlug(slug: string): Promise<Products> {
     try {
@@ -21,6 +23,7 @@ export default async function ProductDetail({ params }: { params: { slug: string
     const data = await getDataBySlug(slug)
     return (
         <>
+        <Navbar />
             <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="flex justify-center items-center">
@@ -52,6 +55,7 @@ export default async function ProductDetail({ params }: { params: { slug: string
                     </div>
                 </div>
             </div>
+        <Footer />
         </>
     )
 } 

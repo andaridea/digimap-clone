@@ -17,3 +17,11 @@ export type RequestParams = {
         slug: string
     }
 }
+
+export type Users = {
+    id: string;
+    name: string;
+    username: string;
+    email: string;
+    password: string
+}

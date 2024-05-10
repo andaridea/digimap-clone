@@ -11,15 +11,19 @@ export default async function Register() {
             username: formData.get("username"),
             password: formData.get("password")
         }
-        const res = await fetch('http://localhost:3001/users', {
+        const res = await fetch('http://localhost:3000/api/register', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(newUser)
       })
+
+      const result = await res.json()
+    //   console.log(result, "<<<")
+
       if (!res.ok) {
-        throw new Error('Failed to add data')
+        throw result
       }
     
       revalidatePath("/login")

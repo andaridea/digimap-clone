@@ -1,7 +1,40 @@
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 import Link from "next/link"
+import { redirect } from "next/navigation"
+import { cookies } from "next/headers"
 export default function Login() {
+    const handleLogin = async (formData: FormData) => {
+        "use server"
+
+        const rawFormData = {
+            email: formData.get("email"),
+            password: formData.get("password")
+        }
+
+        const res = await fetch ("http://localhost:3000/api/login", {
+            method:"POST",
+            cache: "no-store",
+            headers: {
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify(rawFormData)
+        })
+
+        const result = await res.json()
+
+        if (!res.ok) {
+            redirect("/login?err=" + result.error);
+        }
+
+        cookies().set('Authorization', `Bearer ${result.data}`)
+
+        redirect("/");
+    }
+
     return (
         <>
+        <Navbar />
             <section className="h-screen">
                 <div className="container h-full px-16 py-24">
                     <div className="flex h-full flex-wrap items-center justify-center lg:justify-between">
@@ -27,13 +60,14 @@ export default function Login() {
                                     Create Account
                                 </Link>
                             </div>
-                            <form>
+                            <form action={handleLogin}>
                                 {/* Email input */}
                                 <div className="relative mb-6">
                                     <input
                                         type="text"
                                         className="block w-full rounded-md border-0 py-3.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         placeholder="Email Address"
+                                        name="email"
                                     />
                                 </div>
                                 {/* Password input */}
@@ -42,6 +76,7 @@ export default function Login() {
                                         type="password"
                                         className="block w-full rounded-md border-0 py-3.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         placeholder="Password"
+                                        name="password"
                                     />
                                 </div>
                                 {/* Remember me checkbox */}
@@ -106,6 +141,7 @@ export default function Login() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }

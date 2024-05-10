@@ -203,7 +203,7 @@ export default async function Home() {
       <div className="container mx-auto mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10">
         {data.map(el => {
           return (
-            <div>
+            <div key={el.id}>
               <div className="flex flex-row">
                 <img src={el.thumbnail} className="w-full h-auto object-cover object-center" />
                 <a className="me-4 text-neutral-600 dark:text-white mt-20" href="#">
