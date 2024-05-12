@@ -13,7 +13,3 @@ const client = new MongoClient(uri, {
 });
 
 export const db = client.db("gc02_fase3")
-
-export const getCollection = (collectionName: string) => {
-  return db.collection(collectionName)
-}

@@ -1,7 +1,7 @@
 import Product from "../../../../db/models/products"
 export async function GET() {
     try {
-        const data = await Product.findAll()
+        const data = await Product.findLimit()
 
         return Response.json(data)
     } catch (error) {
@@ -10,5 +10,3 @@ export async function GET() {
         }, { status: 500 })
     }
 }
-
-

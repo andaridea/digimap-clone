@@ -1,15 +1,7 @@
 "use client"
-import { FaHeart } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import Link from "next/link";
-import { useState } from "react";
 export default function Navbar () {
-    const [showSearchBar, setShowSearchBar] = useState(false);
-
-    const toggleSearchBar = () => {
-        setShowSearchBar(!showSearchBar);
-    };
     return (
         <>
                  {/* <!-- Navbar --> */}
@@ -19,21 +11,11 @@ export default function Navbar () {
                 <div className="flex items-center justify-center w-full">
                     {/* Logo */}
                     <Link className="mx-auto my-1" href="/">
-                        <img className="mx-auto h-14 ml-40" src="../Digimap.png" alt="Digimap Logo" loading="lazy" />
+                        <img className="mx-auto h-14 ml-10" src="../Digimap.png" alt="Digimap Logo" loading="lazy" />
                     </Link>
                     {/* <!-- Right elements --> */}
                     <div className="flex mr-10">
                         {/* <!-- Icon --> */}
-                        <a className="me-4 text-neutral-600 dark:text-white" onClick={toggleSearchBar} href="#">
-                            <FaSearch
-                                size={25}
-                            />
-                        </a>
-                        <a className="me-4 text-neutral-600 dark:text-white" href="#">
-                            <FaHeart
-                                size={25}
-                            />
-                        </a>
                         <Link className="me-4 text-neutral-600 dark:text-white" href="/login">
                             <FaUser
                                 size={25}
@@ -72,65 +54,34 @@ export default function Navbar () {
                         {/* <!-- Menu Navbar --> */}
                         <ul
                             className="list-style-none flex flex-col ps-0 lg:mt-1 lg:flex-row">
-                            {/* <!-- Iphone --> */}
+                            {/* <!-- Home --> */}
                             <li
                                 className="my-4 ps-2 lg:my-0 lg:pe-1 lg:ps-2 mr-20">
-                                <a
+                                <Link
                                     className="text-black dark:text-white lg:px-2"
                                     aria-current="page"
-                                    href="#">Iphone</a>
+                                    href="/">Home</Link>
                             </li>
-                            {/* <!-- Ipad --> */}
+                            {/* <!-- Products --> */}
                             <li
                                 className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0 mr-20">
-                                <a
+                                <Link
                                     className="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                                    href="#">Ipad
-                                </a>
+                                    href="/products">Products
+                                </Link>
                             </li>
-                            {/* <!-- Mac --> */}
+                            {/* <!-- Wishlist --> */}
                             <li
                                 className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0 mr-20">
-                                <a
+                                <Link
                                     className="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                                    href="#">Mac
-                                </a>
-                            </li>
-                            {/* <!-- Watch --> */}
-                            <li
-                                className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0 mr-20">
-                                <a
-                                    className="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                                    href="#">Watch
-                                </a>
-                            </li>
-                            {/* <!-- Airpods --> */}
-                            <li
-                                className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0 mr-20">
-                                <a
-                                    className="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                                    href="#">Airpods
-                                </a>
-                            </li>
-                            {/* <!-- Accessories --> */}
-                            <li
-                                className="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0 mr-20">
-                                <a
-                                    className="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-                                    href="#">Accessories
-                                </a>
+                                    href="/wishlist">Wishlist
+                                </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <div className={`absolute left-0 top-500 ${showSearchBar ? "block" : "hidden"}`}>
-                <input
-                    type="text"
-                    placeholder="Search..."
-                    className="mx-2 py-1 px-2 border border-gray-300 rounded-lg focus:outline-none w-screen"
-                />
-            </div>
             {/* <!-- End of Navbar --> */}
         </>
     )

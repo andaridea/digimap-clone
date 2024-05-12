@@ -1,5 +1,7 @@
+import { ObjectId } from "mongodb";
+
 export interface Products {
-    id: string;
+    _id: ObjectId;
     name: string;
     slug: string;
     description: string;
@@ -19,9 +21,20 @@ export type RequestParams = {
 }
 
 export type Users = {
-    id: string;
+    _id?: ObjectId;
     name: string;
     username: string;
     email: string;
     password: string
 }
+
+
+export type WishlistType = {
+    _id: ObjectId,
+    userId: ObjectId,
+    productId: ObjectId,
+    createdAt: string,
+    updatedAt: string
+    productDetails: Products[]
+}
+

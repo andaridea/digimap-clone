@@ -27,7 +27,7 @@ export async function POST(request :NextRequest) {
         }
 
         const accessToken = signToken({
-            id: user.id,
+            id: user._id,
             email: user.email,
             username: user.username
         })

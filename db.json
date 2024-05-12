@@ -1,75 +1,64 @@
-{
-  "users": [],
-  "wishlist": [],
-  "products": [
+[
     {
-      "name": "cunabula caelestis volaticus",
-      "slug": "suspendo-tenetur",
-      "description": "Ciminatio velociter spero voro demoror vetus voluptas alter copia. Timor coniecto damno comptus usus crinis crebro tametsi. Summisse decumbo virtus calculus vomito utroque bibo aufero aro.\nAdinventitias apto aestas annus deduco capio vehemens. Delibero deporto placeat voluptatibus aeternus deficio. Vis super voluptate autem amicitia capillus vinitor suasoria sufficio deduco.",
-      "excerpt": "Thorax saepe deficio adimpleo conitor.",
+      "name": "MacBook Pro 16-inch",
+      "slug": "macbook-pro-16-inch",
+      "description": "The MacBook Pro 16-inch is a powerful laptop designed for professionals, featuring a stunning Retina display, M1 Pro or M1 Max chip, and long battery life.",
+      "excerpt": "Powerful laptop with stunning Retina display and M1 Pro or M1 Max chip.",
       "price": 5249399,
-      "tags": ["trucido", "talio", "arceo"],
-      "thumbnail": "https://loremflickr.com/400/400/cats",
+      "tags": ["macBook", "laptop", "apple"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/c2fe2ae1c2687fe760a877f5c7bcdeb3/helix/02-APPLE-8DVLPAPP0-APPMRW33ID-A-Space%20Black.jpg",
       "images": [
-        "https://loremflickr.com/400/400/abstract",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/transport",
-        "https://loremflickr.com/400/400/food"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/c2fe2ae1c2687fe760a877f5c7bcdeb3/helix/02-APPLE-8DVLPAPP0-APPMRW33ID-A-Space%20Black.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/c2fe2ae1c2687fe760a877f5c7bcdeb3/helix/03-APPLE-8DVLPAPP0-APPMRW33ID-A-Space%20Black.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/c2fe2ae1c2687fe760a877f5c7bcdeb3/helix/04-APPLE-8DVLPAPP0-APPMRW33ID-A-Space%20Black.jpg"
       ],
       "createdAt": "2023-12-15T15:32:06.350Z",
       "updatedAt": "2024-03-18T14:47:12.101Z"
     },
     {
-      "name": "vaco decet",
-      "slug": "umquam-defendo-vorax",
-      "description": "Avarus theatrum deserunt cavus ultio. Quae curatio abeo. Distinctio apud desino adhuc trado.\nAspernatur aestas comes modi. Asper caput rerum absque alii molestiae vestrum usitas sodalitas. Assentator calculus illo.\nMaxime tot depraedor textus auctus. Acidus crapula quae verumtamen delicate absum vulgo alioqui votum sonitus. Voro utor maxime tamquam repudiandae creptio atrocitas crebro.",
-      "excerpt": "Absorbeo sursum tres excepturi cupiditas altus.",
+      "name": "AirPods Pro",
+      "slug": "airpods-pro",
+      "description": "The AirPods Pro are Apple's premium wireless earbuds, featuring active noise cancellation, Transparency mode, and customizable fit.",
+      "excerpt": "Premium wireless earbuds with active noise cancellation and Transparency mode.",
       "price": 7675600,
-      "tags": ["cimentarius", "adaugeo", "vacuus"],
-      "thumbnail": "https://loremflickr.com/400/400/business",
+      "tags": ["airpods", "earbuds", "apple"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/51cbee5532347551a449ab2bcded5132/helix/02-APPLE-846EAAPP0-APPMTJV3ID-A-White.jpg",
       "images": [
-        "https://loremflickr.com/400/400/transport",
-        "https://loremflickr.com/400/400/business",
-        "https://loremflickr.com/400/400/animals",
-        "https://loremflickr.com/400/400/business",
-        "https://loremflickr.com/400/400/cats"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/51cbee5532347551a449ab2bcded5132/helix/02-APPLE-846EAAPP0-APPMTJV3ID-A-White.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/51cbee5532347551a449ab2bcded5132/helix/03-APPLE-846EAAPP0-APPMTJV3ID-A-White.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/51cbee5532347551a449ab2bcded5132/helix/01-APPLE-846EAAPP0-APPMTJV3ID-A-White.jpg"
       ],
       "createdAt": "2024-01-22T13:15:24.887Z",
       "updatedAt": "2024-01-25T18:19:54.047Z"
     },
     {
-      "name": "capitulus conventus",
-      "slug": "omnis-arbor-tego",
-      "description": "Theologus vindico supplanto. Sed vix verto vulgus xiphias. Civitas dolore angelus patruus comptus attero.\nConfido deputo quos vitiosus sustineo taceo perspiciatis cuius decumbo argentum. Vinum aestivus hic. Catena velit venustas avaritia.\nAduro tabgo tabula iste sophismata delinquo demonstro amor quasi. Vulgivagus beneficium necessitatibus super tredecim. Sunt cui calculus nemo adamo contigo comptus talio.",
-      "excerpt": "Cruciamentum contabesco subito aggero.",
+      "name": "iPad Air",
+      "slug": "ipad-air",
+      "description": "The iPad Air is a versatile tablet with a stunning Liquid Retina display, A14 Bionic chip, and support for Apple Pencil.",
+      "excerpt": "Versatile tablet with Liquid Retina display and A14 Bionic chip.",
       "price": 3768019,
-      "tags": ["conforto", "vobis", "rerum"],
-      "thumbnail": "https://loremflickr.com/400/400/food",
+      "tags": ["ipad", "tablet", "apple"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/bab0b82505d6f05803d66796ede39eeb/helix/01-APPLE-8DVTBAPP0-APPMME23PA-A-PurpleSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/nature",
-        "https://loremflickr.com/400/400/city",
-        "https://loremflickr.com/400/400/technics",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/sports"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/bab0b82505d6f05803d66796ede39eeb/helix/01-APPLE-8DVTBAPP0-APPMME23PA-A-PurpleSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/bab0b82505d6f05803d66796ede39eeb/helix/02-APPLE-8DVTBAPP0-APPMME23PA-A-PurpleSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/bab0b82505d6f05803d66796ede39eeb/helix/04-APPLE-8DVTBAPP0-APPMME23PA-A-PurpleSS.jpg"
       ],
       "createdAt": "2024-08-09T03:01:50.432Z",
       "updatedAt": "2023-05-17T16:42:21.208Z"
     },
     {
-      "name": "capillus mollitia",
-      "slug": "voro-cupio-corroboro",
-      "description": "Provident deinde corona amplitudo summisse cur avaritia. Amita cunctatio alii victus cruentus. Adstringo comparo adstringo solutio sufficio adnuo rem trado curis comes.\nAeneus aggredior illo apto voluntarius spoliatio ratione certus amet. Uberrime consequuntur calco stella sum supellex utique. Creta deleniti animus amplexus.",
-      "excerpt": "Voluptate tricesimus denego currus.",
+      "name": "iPhone 13 Pro",
+      "slug": "iphone-13-pro",
+      "description": "The iPhone 13 Pro is Apple's latest flagship smartphone, featuring a stunning Super Retina XDR display, A15 Bionic chip, and advanced camera system.",
+      "excerpt": "Flagship smartphone with Super Retina XDR display and advanced camera system.",
       "price": 3225477,
-      "tags": ["copia", "sursum", "omnis"],
-      "thumbnail": "https://loremflickr.com/400/400/cats",
+      "tags": ["iphone", "smartphone", "apple"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/b5bad615ae8e5ee7f2dde665874a4ee2/helix/01-APPLE-8DVPHAPP0-APPMLV93ID-A-GraphiteRevSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/food"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/b5bad615ae8e5ee7f2dde665874a4ee2/helix/01-APPLE-8DVPHAPP0-APPMLV93ID-A-GraphiteRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/b5bad615ae8e5ee7f2dde665874a4ee2/helix/04-APPLE-8DVPHAPP0-APPMLV93ID-A-GraphiteRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/b5bad615ae8e5ee7f2dde665874a4ee2/helix/05-APPLE-8DVPHAPP0-APPMLV93ID-A-GraphiteRevSS.jpg"
       ],
       "createdAt": "2024-03-06T12:32:37.477Z",
       "updatedAt": "2024-06-10T19:39:46.154Z"
@@ -93,109 +82,97 @@
       "updatedAt": "2024-02-10T18:53:21.288Z"
     },
     {
-      "name": "terga voluptates",
-      "slug": "in-usitas",
-      "description": "Occaecati vaco ago verus credo alo vir commemoro. Thymum cupressus repellat vir compono soleo stella alveus. Repudiandae torrens clementia quis alius carbo.\nVoco tergum sint comedo aequitas ademptio conservo. Vivo concido crebro consequuntur aestas pax coruscus usitas truculenter. Adversus certe cunctatio avarus tot ubi vae viduo.",
-      "excerpt": "Paens magnam ars apparatus.",
+      "name": "iPad Magic Keyboard 12.9-inch",
+      "slug": "ipad-magic-keyboard-12-9-inch",
+      "description": "The iPad Magic Keyboard 12.9-inch is a full-size keyboard with a trackpad for the iPad Pro 12.9-inch, providing a comfortable typing experience and precise cursor control.",
+      "excerpt": "Full-size keyboard with trackpad for iPad Pro 12.9-inch.",
       "price": 6961261,
-      "tags": ["aegrus", "utpote", "cado"],
-      "thumbnail": "https://loremflickr.com/400/400/cats",
+      "tags": ["ipad", "accessories", "keyboard"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/141c8a1cb61d2b6ddbe33598511b1d34/helix/01-APPLE-846KBAPP0-APPMXQU2ZA-A-BlackRevSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/sports",
-        "https://loremflickr.com/400/400/abstract",
-        "https://loremflickr.com/400/400/animals",
-        "https://loremflickr.com/400/400/business",
-        "https://loremflickr.com/400/400/transport"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/141c8a1cb61d2b6ddbe33598511b1d34/helix/01-APPLE-846KBAPP0-APPMXQU2ZA-A-BlackRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/141c8a1cb61d2b6ddbe33598511b1d34/helix/03-APPLE-846KBAPP0-APPMXQU2ZA-A-BlackRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/141c8a1cb61d2b6ddbe33598511b1d34/helix/04-APPLE-846KBAPP0-APPMXQU2ZA-A-BlackRevSS.jpg"
       ],
       "createdAt": "2023-01-27T18:25:27.802Z",
       "updatedAt": "2022-12-27T20:46:38.431Z"
     },
     {
-      "name": "perferendis talus",
-      "slug": "unus-articulus",
-      "description": "Talus coma casso aufero aeternus tibi territo. Comminor caecus ipsam ut tubineus capillus tego sub. Consequatur deripio tollo angelus astrum abundans nihil varius sophismata.\nTemperantia decet comptus compello valeo patior uberrime. Paens canto vigor communis deserunt adstringo cohors conqueror tracto recusandae. Crebro corpus culpo tantum vestrum.\nUniverse clamo patria color. Rerum aiunt derelinquo pauper titulus cultellus uredo crapula. Cohors qui demonstro error despecto cerno tolero.",
-      "excerpt": "Arguo talio valde vicinus tenus.",
+      "name": "Mac Studio M2 Max",
+      "slug": "mac-studio-m2-max",
+      "description": "The Mac Studio M2 is a powerful desktop computer designed for professional workflows, featuring the latest M2 chip, high-performance graphics, and expandable storage options.",
+      "excerpt": "Powerful desktop computer with M2 chip and high-performance graphics.",
       "price": 7410934,
-      "tags": ["spectaculum", "adipisci", "trucido"],
-      "thumbnail": "https://loremflickr.com/400/400/transport",
+      "tags": ["mac studio", "dekstop", "pc"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/0b492587c94cb9e51ca60f07380cca80/helix/01-APPLE-8DVDKAPPA-APPMQH73ID-A-Silver.jpg",
       "images": [
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/business",
-        "https://loremflickr.com/400/400/transport"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/0b492587c94cb9e51ca60f07380cca80/helix/01-APPLE-8DVDKAPPA-APPMQH73ID-A-Silver.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/0b492587c94cb9e51ca60f07380cca80/helix/02-APPLE-8DVDKAPPA-APPMQH73ID-A-Silver.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/0b492587c94cb9e51ca60f07380cca80/helix/05-APPLE-8DVDKAPPA-APPMQH73ID-A-Silver.jpg"
       ],
       "createdAt": "2023-01-27T13:37:17.354Z",
       "updatedAt": "2023-09-09T13:43:34.455Z"
     },
     {
-      "name": "ciminatio coma",
-      "slug": "tepidus-nisi",
-      "description": "Truculenter testimonium creta nisi traho corrumpo utor viriliter. Celebrer ab condico aetas umerus venia arcesso. Suasoria tristis vociferor quae conitor.\nConiuratio beneficium comes ventus acsi copia depraedor. Vester dapifer appositus calamitas tabella cras torrens agnitio. Anser velit decumbo absens thymum uxor aveho.\nSolutio cenaculum inflammatio corrumpo vulariter calco vivo. Cuius adversus barba. Convoco basium excepturi.",
-      "excerpt": "Aqua demo et artificiose.",
+      "name": "iMac 24-inch",
+      "slug": "imac-24-inch",
+      "description": "The iMac 24-inch is a powerful desktop computer with a stunning 4.5K Retina display, M1 chip, and sleek design.",
+      "excerpt": "Powerful desktop computer with stunning 4.5K Retina display and M1 chip.  ",
       "price": 5062743,
-      "tags": ["adsuesco", "accusantium", "officia"],
-      "thumbnail": "https://loremflickr.com/400/400/cats",
+      "tags": ["imac", "dekstop", "pc"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ca7e7829eff67ae1f180703ef9974eac/helix/01-APPLE-8DVDKAPP0-APPMJV93ID-A-BlueRevSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/transport",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/nature",
-        "https://loremflickr.com/400/400/city",
-        "https://loremflickr.com/400/400/sports"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ca7e7829eff67ae1f180703ef9974eac/helix/01-APPLE-8DVDKAPP0-APPMJV93ID-A-BlueRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ca7e7829eff67ae1f180703ef9974eac/helix/03-APPLE-8DVDKAPP0-APPMJV93ID-A-BlueRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ca7e7829eff67ae1f180703ef9974eac/helix/05-APPLE-8DVDKAPP0-APPMJV93ID-A-BlueRevSS.jpg"
       ],
       "createdAt": "2023-12-06T07:47:47.833Z",
       "updatedAt": "2023-03-19T16:53:03.404Z"
     },
     {
-      "name": "verbum vicinus conservo",
-      "slug": "ultra-avarus-traho",
-      "description": "Apparatus abduco arguo usus paulatim. Suadeo denique dicta urbs volubilis alienus eaque tenuis ultio. Vesica amet trucido turba veritas.\nQuod assentator placeat crapula deficio bis confido. Subnecto undique ustilo vobis. Demum solium illum pel vinculum.\nChirographum vinum acies cilicium repellat dedecor aetas. Verbera blanditiis velociter admitto conforto cibo allatus aetas. Amor cibus sto.",
-      "excerpt": "Auctor cura caelum soluta.",
+      "name": "AirTag Leather Loop - Saddle Brown",
+      "slug": "airtag-leather-loop-saddle-brown",
+      "description": "The AirTag Leather Loop in Saddle Brown is a stylish and secure way to attach your AirTag to items like keys, bags, or backpacks, providing easy tracking and peace of mind.",
+      "excerpt": "Stylish and secure leather loop for attaching AirTag to items.",
       "price": 9931540,
-      "tags": ["alter", "totus", "urbanus"],
-      "thumbnail": "https://loremflickr.com/400/400/food",
+      "tags": ["airTag accessories", "accessories", "leather"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/867e615a20fecbed8866582df277bed1/helix/01-APPLE-846CAAPPA-APPMX4A2FE-A-SaddleBrownRevSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/nature",
-        "https://loremflickr.com/400/400/technics",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/technics"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/867e615a20fecbed8866582df277bed1/helix/01-APPLE-846CAAPPA-APPMX4A2FE-A-SaddleBrownRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/867e615a20fecbed8866582df277bed1/helix/02-APPLE-846CAAPPA-APPMX4A2FE-A-SaddleBrownRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/867e615a20fecbed8866582df277bed1/helix/02-APPLE-846CAAPPA-APPMX4A2FE-A-SaddleBrownRevSS.jpg"
       ],
       "createdAt": "2023-06-04T03:57:07.764Z",
       "updatedAt": "2022-12-19T19:32:58.233Z"
     },
     {
-      "name": "totus culpa",
-      "slug": "barba-aurum",
-      "description": "Sulum umerus absorbeo saepe vilis tum esse. Reprehenderit suscipit absconditus. Aegre annus cibo vado desidero volubilis.\nCulpa volup thorax. Aiunt cura pecto bellum causa aut abbas vestigium magni appono. Aurum audentia territo alveus debeo attero talus magnam.\nAcsi summisse ducimus contigo velociter. Culpa capto curiositas. Vestrum admitto repudiandae aestus vester somnus cruentus.",
-      "excerpt": "Xiphias dicta charisma cotidie.",
+      "name": "Apple Leather Case for iPhone 13 Pro",
+      "slug": "apple-leather-case-iphone-13-pro",
+      "description": "The Apple Leather Case for iPhone 13 Pro is made from high-quality leather and offers a slim and stylish design, providing protection without adding bulk.",
+      "excerpt": "High-quality leather case with slim and stylish design for iPhone 13 Pro.",
       "price": 4742620,
-      "tags": ["viduo", "attero", "vulgivagus"],
-      "thumbnail": "https://loremflickr.com/400/400/abstract",
+      "tags": ["iphone accessories", "accessories", "leather"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/8315f21f3e6076e26a202f7e8b1c2480/helix/05-APPLE-846CAAPP0-APPMHKJ3ZA-A-RedRevSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/food",
-        "https://loremflickr.com/400/400/cats",
-        "https://loremflickr.com/400/400/food"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/8315f21f3e6076e26a202f7e8b1c2480/helix/05-APPLE-846CAAPP0-APPMHKJ3ZA-A-RedRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/8315f21f3e6076e26a202f7e8b1c2480/helix/03-APPLE-846CAAPP0-APPMHKJ3ZA-A-RedRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/8315f21f3e6076e26a202f7e8b1c2480/helix/01-APPLE-846CAAPP0-APPMHKJ3ZA-A-RedRevSS.jpg"
       ],
       "createdAt": "2023-12-10T04:40:42.778Z",
       "updatedAt": "2023-02-25T03:33:31.866Z"
     },
     {
-      "name": "sustineo sumo",
-      "slug": "tepesco-iure-universe",
-      "description": "Toties suadeo depopulo. Cresco vinco annus consequuntur tolero convoco angelus. Textor a arx.\nConculco curatio solutio animus creo. Necessitatibus ultio absorbeo cunabula clam certe officia distinctio volaticus. Pectus terreo vestrum creptio.",
-      "excerpt": "Calamitas clamo viridis corpus odio creptio.",
+      "name": "Apple Watch Series 7",
+      "slug": "apple-watch-series-7",
+      "description": "The Apple Watch Series 7 is the latest smartwatch from Apple, featuring a larger and brighter Always-On Retina display, advanced health monitoring, and customizable bands.",
+      "excerpt": "Latest smartwatch with larger Always-On Retina display and advanced health monitoring.",
       "price": 5939463,
-      "tags": ["suscipit", "urbs", "sollicito"],
-      "thumbnail": "https://loremflickr.com/400/400/technics",
+      "tags": ["apple watch", "smartwatch", "watch"],
+      "thumbnail": "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ad76290c78f36ff5fd6592bfbafb2655/helix/01-APPLE-8DVWAAPP0-APPMKN23ID-A-RedRevSS.jpg",
       "images": [
-        "https://loremflickr.com/400/400/abstract",
-        "https://loremflickr.com/400/400/technics",
-        "https://loremflickr.com/400/400/transport",
-        "https://loremflickr.com/400/400/technics",
-        "https://loremflickr.com/400/400/nature"
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ad76290c78f36ff5fd6592bfbafb2655/helix/01-APPLE-8DVWAAPP0-APPMKN23ID-A-RedRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ad76290c78f36ff5fd6592bfbafb2655/helix/02-APPLE-8DVWAAPP0-APPMKN23ID-A-RedRevSS.jpg",
+        "https://bb-scm-prod-pim.oss-ap-southeast-5.aliyuncs.com/products/ad76290c78f36ff5fd6592bfbafb2655/helix/05-APPLE-8DVWAAPP0-APPMKN23ID-A-RedRevSS.jpg"
       ],
       "createdAt": "2024-09-17T22:16:36.054Z",
       "updatedAt": "2024-04-26T16:40:49.008Z"
@@ -902,5 +879,4 @@
       "createdAt": "2022-12-08T23:49:22.751Z",
       "updatedAt": "2023-02-06T09:07:21.480Z"
     }
-  ]
-}
+]

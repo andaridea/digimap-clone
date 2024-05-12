@@ -39,7 +39,7 @@ export default class User {
     static async findByEmail (email: string) {
         const user = await this.col().findOne({
             email:email
-        }) as Users | null
+        })
 
         return user
     }

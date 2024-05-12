@@ -6,6 +6,9 @@ export default class Product {
         return db.collection<Products>("products")
     }
     static async findAll() {
+        return await this.col().find({}).toArray() as Products[]
+    }
+    static async findLimit() {
         return await this.col().find({}).limit(5).toArray() as Products[]
     }
     static async findBySlug(slug: string) {
@@ -17,7 +20,7 @@ export default class Product {
     }
     static async searchByName (searchParams: string) {
         await this.col().find({
-            name: {$regex: searchParams, $options: 'i'}
+            name: {$regex: new RegExp(searchParams, 'i')}
         }).toArray() as Products[]
     }
 }
