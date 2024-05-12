@@ -1,5 +1,5 @@
 import { MongoClient, ServerApiVersion } from "mongodb"
-const uri = process.env.MONGO_URI;
+const uri = "mongodb+srv://deaaapuspita17:LkpuX28bZWov8v30@cluster0.r51mz44.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 if(!uri) {
     throw new Error("MONGO_URI is not provided")
