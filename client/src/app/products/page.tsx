@@ -15,7 +15,7 @@ export default function Product() {
 
     const addToWishlist = async ({ id }: { id: ObjectId }) => {
         // console.log(id, "<<< id")
-        const res = await fetch(process.env.BASE_URL + "/api/wishlist", {
+        const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/wishlist", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
@@ -47,7 +47,7 @@ export default function Product() {
         const fetchDataProducts = async () => {
             setLoading(true);
             try {
-                const res = await fetch(process.env.BASE_URL + `/api/products?page=${page}`, {
+                const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + `/api/products?page=${page}`, {
                     method: "GET",
                     cache: "no-store",
                     headers: {

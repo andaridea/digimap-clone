@@ -9,7 +9,7 @@ export default function Wishlist() {
     const [data, setData] = useState<WishlistType[]>([])
 
     async function fetchData() {
-        const res = await fetch(process.env.BASE_URL + "/api/wishlist", {
+        const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/wishlist", {
             method: 'GET',
             headers: {
                 'Content-type': 'application/json'
@@ -29,7 +29,7 @@ export default function Wishlist() {
 
 async function handleRemoveWishlist(productId: ObjectId) {
         try {
-            const res = await fetch(process.env.BASE_URL + `/api/wishlist/${productId}`, {
+            const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + `/api/wishlist/${productId}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-type': 'application/json'

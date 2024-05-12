@@ -5,7 +5,7 @@ import addToWishlist from "@/app/components/AddtoWishlistButton";
 
 async function getDataBySlug(slug: string): Promise<Products> {
     try {
-        const res = await fetch(process.env.BASE_URL + '/api/products/' + slug, {
+        const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/products/' + slug, {
             method: "GET",
             headers: {
                 "Content-type": "application/json"

@@ -6,7 +6,7 @@ import Navbar from "./components/navbar";
 async function getData(): Promise<Products[]> {
   "use server"
   try {
-    const res = await fetch(process.env.BASE_URL + '/api/home', {
+    const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + '/api/home', {
       method: "GET",
     })
 

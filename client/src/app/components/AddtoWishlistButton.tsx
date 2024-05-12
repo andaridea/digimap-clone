@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 
 export default function addToWishlist({ id }: { id: ObjectId }) {
     const handleWishlist = async () => {
-        const res = await fetch(process.env.BASE_URL + "/api/wishlist", {
+        const res = await fetch(process.env.NEXT_PUBLIC_BASE_URL + "/api/wishlist", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
