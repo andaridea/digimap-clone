@@ -9,7 +9,7 @@ export default function Wishlist() {
     const [data, setData] = useState<WishlistType[]>([])
 
     async function fetchData() {
-        const res = await fetch("http://localhost:3000/api/wishlist", {
+        const res = await fetch(process.env.BASE_URL + "/api/wishlist", {
             method: 'GET',
             headers: {
                 'Content-type': 'application/json'
@@ -18,7 +18,7 @@ export default function Wishlist() {
 
         const result = await res.json()
         // console.log(result, "<<<< result")
-        console.log(result.data, "<<<< result.data")
+        // console.log(result.data, "<<<< result.data")
         setData(result.data)
     }
 
@@ -29,7 +29,7 @@ export default function Wishlist() {
 
 async function handleRemoveWishlist(productId: ObjectId) {
         try {
-            const res = await fetch(`http://localhost:3000/api/wishlist/${productId}`, {
+            const res = await fetch(process.env.BASE_URL + `/api/wishlist/${productId}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-type': 'application/json'
@@ -55,10 +55,10 @@ async function handleRemoveWishlist(productId: ObjectId) {
                 <main className="container mx-auto px-4 py-8">
                     <h1 className="text-3xl font-bold mb-4">My Wishlist</h1>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {data.map(el => {
+                        {data.map((el, index) => {
                             const productDetail = el.productDetails[0]
                             return (
-                                <div className="bg-white bg-opacity-75 rounded-lg shadow-md p-6 flex flex-col items-center">
+                                <div key = {index} className="bg-white bg-opacity-75 rounded-lg shadow-md p-6 flex flex-col items-center">
                                     <img
                                         src={productDetail.thumbnail}
                                         alt="Product 1"

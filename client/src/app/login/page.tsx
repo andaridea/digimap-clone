@@ -12,7 +12,7 @@ export default function Login() {
             password: formData.get("password")
         }
 
-        const res = await fetch ("http://localhost:3000/api/login", {
+        const res = await fetch (process.env.BASE_URL + "/api/login", {
             method:"POST",
             cache: "no-store",
             headers: {

@@ -85,7 +85,7 @@ export async function DELETE(request: NextRequest) {
     try {
         const headersList = headers()
         const userId = headersList.get('userId') as string
-        console.log(userId, "<<<<")
+        // console.log(userId, "<<<<")
         if (!userId) {
             return NextResponse.json(
                 {
